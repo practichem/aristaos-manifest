@@ -14,7 +14,7 @@
   <remote fetch="https://git.openembedded.org"  name="python2"/>
   <remote fetch="https://github.com/meta-rust"  name="rust"/>
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
-  <remote fetch="https://git.congatec.com/yocto_nxp" name="congatec"/>
+  <!-- <remote fetch="https://git.congatec.com/yocto_nxp" name="congatec"/> -->
 
   <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="01488a237cdf45b3087420e169c9f67b84fd7373">
     <linkfile dest="README" src="README"/>
@@ -25,7 +25,7 @@
   <project name="meta-clang" path="sources/meta-clang" remote="clang" revision="711e593d5984aad3bf35c51b7ac4482982bc16c7"/>
 
   <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="14f1a630a47375432f93c556927b879b51d84c4e"/>
-  <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="congatec" revision="fd1c0590260d0b38b99256e40a859e7ee69eda34"/>
+  <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="dbcc686f52c3c84db8cb86aa8973a4e373651b98"/>
   <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="ca27d12e4964d1336e662bcc60184bbff526c857"/>
 
   <project name="meta-imx" path="sources/meta-imx" remote="CAF" revision="refs/tags/rel_imx_5.4.70_2.3.9" upstream="zeus-5.4.70-2.3.9">
@@ -41,6 +41,10 @@
 
   <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="147c2f5c4702ee9bd95a9bf7f6e7e4a2a730c382"/>
 
-  <project name="poky" path="sources/poky" remote="yocto" revision="0275e68b0576cdefc19718e4b1977044f9f43f48"/>
+  <project name="poky" path="sources/poky" remote="yocto" revision="d88d62c20d7d8da85f02edb170dae0280624ad7e"/>
+
+
+  <!-- FROM CGT - TODO: diff this file with the meta-freescale-3rdparty in CAF
+  <project remote="congatec" revision="fd1c0590260d0b38b99256e40a859e7ee69eda34" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/> -->
 
 </manifest>
