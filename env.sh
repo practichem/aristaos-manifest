@@ -7,7 +7,7 @@ DOCKER_REPO="aristaos-docker"
 # Docker setup
 # ------------
 # Choose an OS version Dockerfile compatible with the Yocto Project version.
-DOCKER_FILENAME="Dockerfile-Ubuntu-18.04"
+DOCKERFILE_NAME="aristaos-dockerfile-Ubuntu-18.04"
 
 # Tag the Docker image. Must be lowercase.
 DOCKER_IMAGE_TAG="ubuntu-18.04"
@@ -34,6 +34,6 @@ IMAGES="core-image-minimal"
 
 # Repo parameters
 # TODO: Fix this next path so it is relative
-MANIFEST_REPO="/home/nick/arista-imx-cgt-manifest"
+MANIFEST_REPO="https://github.com/practichem/aristaos-manifest.git"
 MANIFEST_BRANCH=${ARISTA_IMX_RELEASE}
 MANIFEST_FILENAME="manifest.xml"

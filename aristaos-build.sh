@@ -7,8 +7,8 @@
 
 #
 
-mkdir -p ${YOCTO_DIR}
-cd ${YOCTO_DIR}
+mkdir -p ${YOCTO_BUILD_DIR}
+cd ${YOCTO_BUILD_DIR}
 
 # Initialize the repo using the local manifest file
 
