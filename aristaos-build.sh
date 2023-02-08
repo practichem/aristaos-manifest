@@ -12,8 +12,10 @@ cd ${YOCTO_DIR}
 
 # Initialize the repo using the local manifest file
 
+echo "We're in ${PWD}"
+
 repo init \
-    -m manifest.xml
+    -m ${YOCTO_DIR}/manifest/manifest.xml
 
 repo sync -j`nproc`
 
