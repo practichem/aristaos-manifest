@@ -18,15 +18,15 @@ ARISTAOS_REPO="aristaos"
 DOCKER_WORKDIR="/opt/yocto"
 
 # Add a tag to the Docker image. Used by docker-run.sh
-DOCKER_TAG_NAME="ubuntu-18.04"
+DOCKER_IMAGE_TAG="ubuntu-18.04"
 
 # Specify the Dockerfile required by Yocto for this project
-DOCKER_FILE="aristaos-dockerfile-ubuntu-18.04"
+DOCKERFILE_NAME="dockerfile-zeus"
 
 BUILD_DIR="${DOCKER_WORKDIR}/${IMX_RELEASE}-build"
 
 
-IMX_RELEASE="imx-5.10.35-2.0.0"
+IMX_RELEASE="aristaos-2.3"
 
 YOCTO_DIR="${DOCKER_WORKDIR}/${IMX_RELEASE}-build"
 
