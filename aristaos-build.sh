@@ -15,9 +15,10 @@ cd ${YOCTO_DIR}
 echo "We're in ${PWD}"
 
 repo init \
-    -m ${YOCTO_DIR}/manifest/manifest.xml
+    -u ${DOCKER_WORKDIR}/manifest/  \
+    -m manifest.xml
 
-repo sync -j`nproc`
+# repo sync -j`nproc`
 
 # source the yocto env
 
