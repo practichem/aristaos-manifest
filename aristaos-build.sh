@@ -10,15 +10,15 @@
 mkdir -p ${YOCTO_DIR}
 cd ${YOCTO_DIR}
 
-# Initialize the repo using the local manifest file
+echo -e "\nrepo: Initializing repo"
 
-echo "We're in ${PWD}"
+echo -e "Current directory: ${PWD}\n"
 
 repo init \
     -u ${DOCKER_WORKDIR}/manifest/  \
     -m manifest.xml
 
-# repo sync -j`nproc`
+repo sync -j`nproc`
 
 # source the yocto env
 
