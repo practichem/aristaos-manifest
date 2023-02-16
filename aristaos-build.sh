@@ -3,16 +3,24 @@
 
 # source the common variables
 
-. ./env.sh
 
-#
+if [ -f /.dockerenv ]; then
+    echo "I'm inside matrix ;(";
+else
+    echo -e "This script must be run inside a container\n";
+    exit 1
+fi
+
+
+. ./env.sh
 
 mkdir -p ${YOCTO_DIR}
 cd ${YOCTO_DIR}
 
-echo -e "\nrepo: Initializing repo"
+echo -e "\n\e[92mrepo:\e[0m Initializing repo"
+echo -e "\e[92mCurrent directory:\e[0m ${PWD}\n"
 
-echo -e "Current directory: ${PWD}\n"
+
 
 repo init \
     -u ${DOCKER_WORKDIR}/manifest/  \
@@ -20,11 +28,9 @@ repo init \
 
 repo sync -j`nproc`
 
-# source the yocto env
-
+# Source the build environment.
 EULA=1 MACHINE="${MACHINE}" DISTRO="${DISTRO}" source imx-setup-release.sh -b build_${DISTRO}
 
 # Build
-
 bitbake ${IMAGES}
 
