@@ -39,6 +39,6 @@
      <linkfile src="README" dest="README-IMXBSP"/>
   </project>
 
-  <project remote="aristaos" revision="5155922f4abd50c111c9db9e894ec3d0489536ec" name="meta-aristaos" path="sources/meta-aristaos" />
+  <project remote="aristaos" revision="9afca8ebca6d548daaa1208b11260348d99bc08a" name="meta-aristaos" path="sources/meta-aristaos" />
   <project remote="java" revision="95d56a63cdbf1ed9db99a1f02075568fd45a668b" name="meta-java" path="sources/meta-java" />
 </manifest>
