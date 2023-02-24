@@ -13,6 +13,7 @@
   <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
   <remote fetch="https://git.congatec.com/yocto_nxp" name="congatec"/>
   <remote fetch="https://github.com/lmtan91" name="aristaos"/>
+  <remote fetch="https://github.com/meta-java" name="java"/>
 
   <project remote="yocto" revision="0275e68b0576cdefc19718e4b1977044f9f43f48" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="0be39721cea6e04c589a419f4bb07fabd0da6704" name="meta-freescale" path="sources/meta-freescale"/>
@@ -39,4 +40,5 @@
   </project>
 
   <project remote="aristaos" revision="5155922f4abd50c111c9db9e894ec3d0489536ec" name="meta-aristaos" path="sources/meta-aristaos" />
+  <project remote="java" revision="95d56a63cdbf1ed9db99a1f02075568fd45a668b" name="meta-java" path="sources/meta-java" />
 </manifest>
