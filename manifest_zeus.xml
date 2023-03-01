@@ -14,6 +14,7 @@
   <remote fetch="https://git.congatec.com/yocto_nxp" name="congatec"/>
   <remote fetch="https://github.com/lmtan91" name="aristaos"/>
   <remote fetch="https://github.com/meta-java" name="java"/>
+  <remote fetch="https://github.com/sbabic" name="swupdate"/>
 
   <project remote="yocto" revision="0275e68b0576cdefc19718e4b1977044f9f43f48" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="0be39721cea6e04c589a419f4bb07fabd0da6704" name="meta-freescale" path="sources/meta-freescale"/>
@@ -39,6 +40,7 @@
      <linkfile src="README" dest="README-IMXBSP"/>
   </project>
 
-  <project remote="aristaos" revision="4eec003d4f6399c3bf021d13d0e9577c2277542b" name="meta-aristaos" path="sources/meta-aristaos" />
+  <project remote="aristaos" revision="cfdc82cf3d5db0af61ccaba170269645fe3e3aef" name="meta-aristaos" path="sources/meta-aristaos" />
   <project remote="java" revision="95d56a63cdbf1ed9db99a1f02075568fd45a668b" name="meta-java" path="sources/meta-java" />
+  <project remote="swupdate" revision="c06067a0e10fe59d0fecbca629495ecbcdd1d5a2" name="meta-swupdate" path="sources/meta-swupdate" />
 </manifest>
