@@ -40,7 +40,7 @@
      <linkfile src="README" dest="README-IMXBSP"/>
   </project>
 
-  <project remote="aristaos" revision="c341a25b1be98204b1b40eb83d083b538c88af95" name="meta-aristaos" path="sources/meta-aristaos" />
+  <project remote="aristaos" revision="d3b05b8107847f6a71711d291f21f6ed8296398a" name="meta-aristaos" path="sources/meta-aristaos" />
   <project remote="java" revision="95d56a63cdbf1ed9db99a1f02075568fd45a668b" name="meta-java" path="sources/meta-java" />
   <project remote="swupdate" revision="c06067a0e10fe59d0fecbca629495ecbcdd1d5a2" name="meta-swupdate" path="sources/meta-swupdate" />
 </manifest>
