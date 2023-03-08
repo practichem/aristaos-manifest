@@ -12,7 +12,7 @@
   <remote fetch="https://github.com/meta-rust"  name="rust"/>
   <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
   <remote fetch="https://git.congatec.com/yocto_nxp" name="congatec"/>
-  <remote fetch="git@github.com:practichem" name="aristaos"/>
+  <remote fetch="ssh://github.com/practichem" name="aristaos"/>
   <remote fetch="https://github.com/meta-java" name="java"/>
   <remote fetch="https://github.com/sbabic" name="swupdate"/>
 
@@ -40,7 +40,7 @@
      <linkfile src="README" dest="README-IMXBSP"/>
   </project>
 
-  <project remote="aristaos" revision="12ee10d2c7d09f07712624f0fda1c05cf0924014" name="meta-aristaos" path="sources/meta-aristaos" />
+  <project remote="aristaos" revision="ff350618679d317763c49bc62cc96069afc87da4" name="meta-aristaos" path="sources/meta-aristaos" />
   <project remote="java" revision="95d56a63cdbf1ed9db99a1f02075568fd45a668b" name="meta-java" path="sources/meta-java" />
   <project remote="swupdate" revision="c06067a0e10fe59d0fecbca629495ecbcdd1d5a2" name="meta-swupdate" path="sources/meta-swupdate" />
 </manifest>
