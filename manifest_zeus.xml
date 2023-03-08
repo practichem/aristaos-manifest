@@ -12,7 +12,7 @@
   <remote fetch="https://github.com/meta-rust"  name="rust"/>
   <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
   <remote fetch="https://git.congatec.com/yocto_nxp" name="congatec"/>
-  <remote fetch="ssh://github.com/practichem" name="aristaos"/>
+  <remote fetch="ssh://git@github.com/practichem" name="aristaos"/>
   <remote fetch="https://github.com/meta-java" name="java"/>
   <remote fetch="https://github.com/sbabic" name="swupdate"/>
 
