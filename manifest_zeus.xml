@@ -17,7 +17,7 @@
   <remote fetch="https://github.com/sbabic" name="swupdate"/>
 
   <project remote="yocto" revision="0275e68b0576cdefc19718e4b1977044f9f43f48" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="0be39721cea6e04c589a419f4bb07fabd0da6704" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="community" revision="14f1a630a47375432f93c556927b879b51d84c4e" name="meta-freescale" path="sources/meta-freescale"/>
 
   <project remote="oe" revision="aad5b3d070cd8c58828b0975cf861d8ebc90f460" name="meta-openembedded" path="sources/meta-openembedded"/>
 
